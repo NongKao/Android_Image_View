@@ -5,9 +5,7 @@
     android:id="@+id/myBackGround"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:screenOrientation="reversePortrait"
-    tools:context=".MainActivity"
-    tools:ignore="LockedOrientationActivity">
+    tools:context=".MainActivity">
 
     <Switch
         android:id="@+id/sw_check"
@@ -92,16 +90,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar3" />
 
-
+    
     <SeekBar
-        android:id="@+id/seekbar"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="@dimen/_30sdp"
-        android:thumb="@drawable/goku"
-        app:layout_constraintTop_toBottomOf="@id/progressBar2" />
-
+        app:layout_constraintTop_toBottomOf="@id/progressBar2"
+        style="@android:style/Widget.Material.SeekBar.Discrete"
+        />
+        
 </androidx.constraintlayout.widget.ConstraintLayout>

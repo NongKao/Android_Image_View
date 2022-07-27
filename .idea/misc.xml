@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/Android/Android_05_Image_View/app/src/main/res/drawable/custom_thumb.xml" value="0.1225" />
+        <entry key="..\:/Project/Android/Android_05_Image_View/app/src/main/res/drawable/custom_track.xml" value="0.1225" />
+        <entry key="..\:/Project/Android/Android_05_Image_View/app/src/main/res/layout-v24/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Project/Android/Android_05_Image_View/app/src/main/res/layout/activity_main.xml" value="0.3421875" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
